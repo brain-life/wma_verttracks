@@ -133,6 +133,9 @@ end
 
 classification=removeOutliersClassificationDev(classification,wbFG, 4, 10);
 
+names=   'pArc'    'TPC'    'MdLF-SPL'    'MdLF-Ang'    'VOF';
+classification = bsc_extractTractsByName(classification,names);
+
 disp('\n Tracts segmentation complete');
 
 return
