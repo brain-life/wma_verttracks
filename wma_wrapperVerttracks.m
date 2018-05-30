@@ -1,4 +1,4 @@
-function [classification] = wma_wrapperDev(wbFG,fsDIR)
+function [classification] = wma_wrapperVerttracks(wbFG,fsDIR)
 % 
 % [tracts_indexes]=wma_wrapper(wbFG,dt6path,FiberDir,saveHeader)
 %
